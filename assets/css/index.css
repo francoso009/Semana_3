@@ -1,0 +1,55 @@
+/*Archivo CSS para darle formato a la pagina web */
+body {
+    background-image: url('https://wallpapers.com/images/high/retro-gaming-2560-x-1440-wallpaper-tg1kcqw2ya1sas4n.webp'); /* Ruta a tu imagen */
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+/*formato para la navegación*/
+header {
+    background-color: rgba(44, 62, 80, 0.8); /* Color de fondo semitransparente */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+/*formato para los titulos*/
+h1, h2 {
+    font-size: 20;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0;
+}
+/*formato para la navegación*/
+nav {
+    margin-top: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ecf0f1;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+    transition: background-color 0.3s, border 0.3s;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: #3498db;
+    border: 2px solid #2980b9;
+}
+
